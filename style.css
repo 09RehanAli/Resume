@@ -56,3 +56,13 @@ p {
   margin-left: 50px;
   margin-right: 20px;
 }
+
+@media screen and (max-width: 430px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .first_half {
+    width: 100%;
+  }
+}
